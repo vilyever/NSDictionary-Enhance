@@ -15,6 +15,9 @@
 		FEF352961B79FDBB0070C6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF352951B79FDBB0070C6D5 /* Images.xcassets */; };
 		FEF352991B79FDBB0070C6D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF352971B79FDBB0070C6D5 /* LaunchScreen.xib */; };
 		FEF352A51B79FDBC0070C6D5 /* NSDictionary_EnhanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF352A41B79FDBC0070C6D5 /* NSDictionary_EnhanceTests.m */; };
+		FEF352B21B79FDCC0070C6D5 /* NSDictionary-Enhance.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FEF352AE1B79FDCC0070C6D5 /* NSDictionary-Enhance.podspec */; };
+		FEF352B51B79FE130070C6D5 /* NSDictionary+VDEnhance.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF352B41B79FE130070C6D5 /* NSDictionary+VDEnhance.m */; };
+		FEF352B81B79FEC80070C6D5 /* NSMutableDictionary+VDEnhance.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF352B71B79FEC80070C6D5 /* NSMutableDictionary+VDEnhance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,11 @@
 		FEF3529E1B79FDBC0070C6D5 /* NSDictionary-EnhanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSDictionary-EnhanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF352A31B79FDBC0070C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF352A41B79FDBC0070C6D5 /* NSDictionary_EnhanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_EnhanceTests.m; sourceTree = "<group>"; };
+		FEF352AE1B79FDCC0070C6D5 /* NSDictionary-Enhance.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSDictionary-Enhance.podspec"; sourceTree = "<group>"; };
+		FEF352B31B79FE130070C6D5 /* NSDictionary+VDEnhance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+VDEnhance.h"; sourceTree = "<group>"; };
+		FEF352B41B79FE130070C6D5 /* NSDictionary+VDEnhance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+VDEnhance.m"; sourceTree = "<group>"; };
+		FEF352B61B79FEC80070C6D5 /* NSMutableDictionary+VDEnhance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+VDEnhance.h"; sourceTree = "<group>"; };
+		FEF352B71B79FEC80070C6D5 /* NSMutableDictionary+VDEnhance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+VDEnhance.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,8 @@
 				FEF352841B79FDBB0070C6D5 /* NSDictionary-Enhance */,
 				FEF352A11B79FDBC0070C6D5 /* NSDictionary-EnhanceTests */,
 				FEF352831B79FDBB0070C6D5 /* Products */,
+				FEF352AE1B79FDCC0070C6D5 /* NSDictionary-Enhance.podspec */,
+				FEF352AF1B79FDCC0070C6D5 /* Pod */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +130,33 @@
 				FEF352A31B79FDBC0070C6D5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEF352AF1B79FDCC0070C6D5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FEF352B01B79FDCC0070C6D5 /* Assets */,
+				FEF352B11B79FDCC0070C6D5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FEF352B01B79FDCC0070C6D5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FEF352B11B79FDCC0070C6D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FEF352B31B79FE130070C6D5 /* NSDictionary+VDEnhance.h */,
+				FEF352B41B79FE130070C6D5 /* NSDictionary+VDEnhance.m */,
+				FEF352B61B79FEC80070C6D5 /* NSMutableDictionary+VDEnhance.h */,
+				FEF352B71B79FEC80070C6D5 /* NSMutableDictionary+VDEnhance.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEF352941B79FDBB0070C6D5 /* Main.storyboard in Resources */,
+				FEF352B21B79FDCC0070C6D5 /* NSDictionary-Enhance.podspec in Resources */,
 				FEF352991B79FDBB0070C6D5 /* LaunchScreen.xib in Resources */,
 				FEF352961B79FDBB0070C6D5 /* Images.xcassets in Resources */,
 			);
@@ -224,8 +262,10 @@
 			files = (
 				FEF3528B1B79FDBB0070C6D5 /* AppDelegate.m in Sources */,
 				FEF352881B79FDBB0070C6D5 /* main.m in Sources */,
+				FEF352B81B79FEC80070C6D5 /* NSMutableDictionary+VDEnhance.m in Sources */,
 				FEF352911B79FDBB0070C6D5 /* ViewController.m in Sources */,
 				FEF3528E1B79FDBB0070C6D5 /* NSDictionary_Enhance.xcdatamodeld in Sources */,
+				FEF352B51B79FE130070C6D5 /* NSDictionary+VDEnhance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
