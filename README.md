@@ -24,4 +24,4 @@ NSDictionary NSMutableDictionary 增强
 ```
 ## License
 
-[MIT license](LICENSE). 
+[MIT license](LICENSE)
